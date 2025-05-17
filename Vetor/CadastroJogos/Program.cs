@@ -12,7 +12,8 @@ namespace CadastroJogos
         {
             string[] vetJogos = new string[3];
 
-            do {
+            do
+            {
 
                 Console.WriteLine(@"
 ░█████╗░░█████╗░██████╗░░█████╗░░██████╗████████╗██████╗░░█████╗░  ██████╗░███████╗
@@ -32,16 +33,16 @@ namespace CadastroJogos
                 Console.WriteLine("");
                 Console.WriteLine("");
                 Console.WriteLine("");
-              
+
 
                 Console.WriteLine("1 - Cadastrar");
-            Console.WriteLine("2 - Consultar");
-            Console.WriteLine("3 - Atualizar");
-            Console.WriteLine("4 - Excluir");
+                Console.WriteLine("2 - Consultar");
+                Console.WriteLine("3 - Atualizar");
+                Console.WriteLine("4 - Excluir");
 
-            int opcao = int.Parse(Console.ReadLine());
-           
-            
+                int opcao = int.Parse(Console.ReadLine());
+
+
 
 
 
@@ -53,9 +54,9 @@ namespace CadastroJogos
                         vetJogos[i] = Console.ReadLine();
                     }
                     Console.WriteLine("Para continuar, pressione a tecla enter ");
-                Console.ReadKey();
+                    Console.ReadKey();
                 }
-                
+
 
                 else if (opcao == 2)
                 {
@@ -67,9 +68,50 @@ namespace CadastroJogos
                     Console.ReadKey();
 
                 }
+                else if (opcao == 3)
+                {
+                    Console.WriteLine("Informe qual indice deseja mudar:(1, 2, 3) ");
+                    int indice = int.Parse(Console.ReadLine());
+                    if (indice == 1)
+                    {
+                        Console.WriteLine($"Coloque o nome que voce quer para substituir {vetJogos[0]}");
+                        vetJogos[0] = Console.ReadLine();
+                    }
+                    else if (indice == 2)
+                    {
+                        Console.WriteLine($"Coloque o nome que voce quer para substituir {vetJogos[1]}");
+                        vetJogos[1] = Console.ReadLine();
+                    }
+                    else if (indice == 3)
+                    {
+                        Console.WriteLine($"Coloque o nome que voce quer para substituir {vetJogos[2]}");
+                        vetJogos[2] = Console.ReadLine();
+                    }
+                }
+                else if (opcao == 4)
+                {
+                    Console.WriteLine("Informe qual indice deseja excluir:(1, 2, 3) ");
+                    int indice = int.Parse(Console.ReadLine());
+                    if (indice == 1)
+                    {
+                        vetJogos[0] = ("");
+
+                    }
+                    else if (indice == 2)
+                    {
+
+                        vetJogos[1] = ("");
+                    }
+                    else if (indice == 3)
+                    {
+
+                        vetJogos[2] = ("");
+                    }
+                   
+                }
                 Console.Clear();
             } while (true);
-
+            
         }
     }
 }
