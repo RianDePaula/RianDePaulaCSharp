@@ -1,0 +1,8 @@
+C:\Users\ALUNO\Documents\RianDePaulaCSharp\Vetor\CadastroJogos\bin\Debug\CadastroJogos.exe.config
+C:\Users\ALUNO\Documents\RianDePaulaCSharp\Vetor\CadastroJogos\bin\Debug\CadastroJogos.exe
+C:\Users\ALUNO\Documents\RianDePaulaCSharp\Vetor\CadastroJogos\bin\Debug\CadastroJogos.pdb
+C:\Users\ALUNO\Documents\RianDePaulaCSharp\Vetor\CadastroJogos\obj\Debug\CadastroJogos.csproj.AssemblyReference.cache
+C:\Users\ALUNO\Documents\RianDePaulaCSharp\Vetor\CadastroJogos\obj\Debug\CadastroJogos.csproj.SuggestedBindingRedirects.cache
+C:\Users\ALUNO\Documents\RianDePaulaCSharp\Vetor\CadastroJogos\obj\Debug\CadastroJogos.csproj.CoreCompileInputs.cache
+C:\Users\ALUNO\Documents\RianDePaulaCSharp\Vetor\CadastroJogos\obj\Debug\CadastroJogos.exe
+C:\Users\ALUNO\Documents\RianDePaulaCSharp\Vetor\CadastroJogos\obj\Debug\CadastroJogos.pdb
